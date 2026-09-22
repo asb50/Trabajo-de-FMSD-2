@@ -244,7 +244,6 @@ def DescargarEstaciones(apikey):
     print("Se han insertado los datos en la tabla Estaciones\n")
 
 # %%
-# apikey = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbmRyZWEuc2F5YWdvYnV0cm9uQGFsdW0udWNhLmVzIiwianRpIjoiNTNlYzllY2YtZWY1MS00ZmQ2LTk3MzktNDY1NzJmMDY4OGRmIiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3NjI3NzE4OTMsInVzZXJJZCI6IjUzZWM5ZWNmLWVmNTEtNGZkNi05NzM5LTQ2NTcyZjA2ODhkZiIsInJvbGUiOiIifQ.2V2S519YdRnGaXy9WP55AgPtB_qI7UmkZ3bzRhWmaLI"
 # DescargarEstaciones(apikey)
 
 # %%
@@ -319,7 +318,6 @@ def DescargarMunicipios(apikey):
     print("Se han insertado los datos en la tabla Municipios\n")
 
 # %%
-# apikey = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbmRyZWEuc2F5YWdvYnV0cm9uQGFsdW0udWNhLmVzIiwianRpIjoiNTNlYzllY2YtZWY1MS00ZmQ2LTk3MzktNDY1NzJmMDY4OGRmIiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3NjI3NzE4OTMsInVzZXJJZCI6IjUzZWM5ZWNmLWVmNTEtNGZkNi05NzM5LTQ2NTcyZjA2ODhkZiIsInJvbGUiOiIifQ.2V2S519YdRnGaXy9WP55AgPtB_qI7UmkZ3bzRhWmaLI"
 # DescargarMunicipios(apikey)
 
 # %%
@@ -531,7 +529,6 @@ def DescargarNuevosDatos(apikey):
     print("Se han insertado los datos en la tabla DatosHoras\n")
 
 # %%
-# apikey = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbmRyZWEuc2F5YWdvYnV0cm9uQGFsdW0udWNhLmVzIiwianRpIjoiNTNlYzllY2YtZWY1MS00ZmQ2LTk3MzktNDY1NzJmMDY4OGRmIiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3NjI3NzE4OTMsInVzZXJJZCI6IjUzZWM5ZWNmLWVmNTEtNGZkNi05NzM5LTQ2NTcyZjA2ODhkZiIsInJvbGUiOiIifQ.2V2S519YdRnGaXy9WP55AgPtB_qI7UmkZ3bzRhWmaLI"
 # DescargarNuevosDatos(apikey)    
 
 # %%
@@ -787,7 +784,6 @@ def DatosEntreFechas(apikey):
     
 
 # %%
-# apikey = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbmRyZWEuc2F5YWdvYnV0cm9uQGFsdW0udWNhLmVzIiwianRpIjoiNTNlYzllY2YtZWY1MS00ZmQ2LTk3MzktNDY1NzJmMDY4OGRmIiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3NjI3NzE4OTMsInVzZXJJZCI6IjUzZWM5ZWNmLWVmNTEtNGZkNi05NzM5LTQ2NTcyZjA2ODhkZiIsInJvbGUiOiIifQ.2V2S519YdRnGaXy9WP55AgPtB_qI7UmkZ3bzRhWmaLI"
 # DatosEntreFechas(apikey)
 
 # %%
@@ -1231,7 +1227,6 @@ def main():
     print("╚══════════════════════════════════╝")
     print("\nNota: la primera opción que debe ejecutar es la 1.")
     seguir = True
-    # apikey = "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhbmRyZWEuc2F5YWdvYnV0cm9uQGFsdW0udWNhLmVzIiwianRpIjoiNTNlYzllY2YtZWY1MS00ZmQ2LTk3MzktNDY1NzJmMDY4OGRmIiwiaXNzIjoiQUVNRVQiLCJpYXQiOjE3NjI3NzE4OTMsInVzZXJJZCI6IjUzZWM5ZWNmLWVmNTEtNGZkNi05NzM5LTQ2NTcyZjA2ODhkZiIsInJvbGUiOiIifQ.2V2S519YdRnGaXy9WP55AgPtB_qI7UmkZ3bzRhWmaLI"
     while seguir:
         listaOpciones = ["Salir",
                         "Crear base de datos (necesario para las demás opciones)",
