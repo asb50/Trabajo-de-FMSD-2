@@ -81,7 +81,7 @@ def DescargarProvincias():
     print("Descargando datos...")
     
     try:
-        r = requests.get("https://ucadrive.uca.es/index.php/s/iZQNdrybL9nnB2z/download")
+        r = requests.get("archivo de ucadrive")
         r.raise_for_status()
     except requests.exceptions.RequestException as e:
         print(f"Error de conexión: {e}")
